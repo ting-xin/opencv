@@ -111,7 +111,7 @@ public:
          };
 
     typedef _Tp                           value_type;
-    typedef Matx<_Tp, m, n>               mat_type;
+    typedef Matx<_Tp, m, n>               mat_type;     // what's this mat_type used for?
     typedef Matx<_Tp, shortdim, 1> diag_type;
 
     //! default constructor
