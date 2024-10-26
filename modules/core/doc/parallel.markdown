@@ -1,6 +1,8 @@
 # Parallel
 parallel_for_ 的基类[ParallelLoopBody](../include/opencv2/core/utility.hpp)
 
+nStripe：patallel_for_在调用时可以通过设置nStripe来制定将输入切分成多少份
+
 ## 使用方法
 > 声明一个类并继承自基类ParallelLoopBody，然后重写operator()方法。
 
